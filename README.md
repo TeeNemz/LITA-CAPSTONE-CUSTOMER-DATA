@@ -245,6 +245,10 @@ ORDER BY CancellationCount DESC
 
 MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
 
+
+![Customer data pivot table](https://github.com/user-attachments/assets/bd515e3b-ffff-4d9c-9d7b-97290e7dacf3)
+
+
 POWER BI INSIGHTS AND VISUALIZATIONS
 
 
