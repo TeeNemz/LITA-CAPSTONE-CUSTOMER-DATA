@@ -249,6 +249,10 @@ MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
 ![Customer data pivot table](https://github.com/user-attachments/assets/bd515e3b-ffff-4d9c-9d7b-97290e7dacf3)
 
 
+![Customer pivot chart](https://github.com/user-attachments/assets/8bc8d124-9e6d-4f35-aad5-8aeb43addf8e)
+
+
+
 POWER BI INSIGHTS AND VISUALIZATIONS
 
 
