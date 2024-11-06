@@ -166,3 +166,71 @@ Average subscription duration per customer. Where "I" is for column with duratio
 B. Structured Query Language (SQL):
 
 The following queries were written to analyse the Customer data
+
+``` SQL
+
+SELECT * FROM [dbo].[Capstone customer main]
+
+```
+a. Retrieve the total number of customers from each region
+```
+SELECT Region, Count(distinct CustomerID) AS Total_customers
+FROM [dbo].[Capstone customer main]
+GROUP BY Region
+```
+
+b. Find the most popular subscription type by the number of customers.
+```
+SELECT Top 1 subscriptiontype, count(distinct customerID) AS Total_customers
+FROM [dbo].[Capstone customer main]
+GROUP BY Subscriptiontype
+ORDER BY Total_customers DESC
+
+```
+c. Find customers who canceled their subscription within 6 months.
+```
+SELECT CustomerID
+FROM [dbo].[Capstone customer main]
+WHERE Datediff(Month, Subscriptionstart, subscriptionend) <= 6
+
+```
+d. Calculate the average subscription duration for all customers
+```
+
+SELECT avg( Datediff(day, Subscriptionstart, subscriptionend))  AS Avg_subscription_duration
+FROM [dbo].[Capstone customer main]
+
+```
+e. Find customers with subscriptions longer than 12 months.
+```
+
+SELECT CustomerID
+FROM [dbo].[Capstone customer main]
+WHERE Datediff(Month, Subscriptionstart, subscriptionend) > 12
+
+```
+f. Calculate total revenue by subscription type
+```
+
+SELECT Subscriptiontype, sum(revenue) AS Total_revenue
+FROM [dbo].[Capstone customer main]
+GROUP BY Subscriptiontype
+
+```
+g. Find the total number of active and canceled subscriptions
+```
+SELECT 
+  SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+  SUM(CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
+FROM [dbo].[Capstone customer main]
+
+```
+h. Find the top 3 regions by subscription cancellations
+
+```
+
+SELECT TOP 3 Region, COUNT(CustomerID) AS CancellationCount
+FROM [dbo].[Capstone customer main]
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY CancellationCount DESC 
