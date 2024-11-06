@@ -22,6 +22,8 @@
 
 [DATA ANALYSIS](#Data-analysis)
 
+[DATA VISUALIZATION](#Data-visualization)
+
 [KEY INSIGHTS AND INFERENCE](#Key-insights-and-inference)
 
 [RECOMMENDATIONS](#Recommendations)
@@ -114,6 +116,7 @@ c. Data Visualization
 
 
 ### EXPLORATORY DATA ANALYSIS:
+---
 
 EDA involved the exploring of Data to answer some questions about the Data, These questions include;
 
@@ -154,6 +157,7 @@ cancellations, and subscription trends.
   
 
 ### DATA ANALYSIS
+---
 
 A. MICROSOFT EXCEL:
 
@@ -233,4 +237,56 @@ SELECT TOP 3 Region, COUNT(CustomerID) AS CancellationCount
 FROM [dbo].[Capstone customer main]
 WHERE Canceled = 1
 GROUP BY Region
-ORDER BY CancellationCount DESC 
+ORDER BY CancellationCount DESC
+```
+
+### DATA VISUALIZATION
+---
+
+MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
+
+POWER BI INSIGHTS AND VISUALIZATIONS
+
+
+### KEY INSIGHTS AND INFERENCE:
+---
+
+
+### RECOMMENDATIONS:
+---
+
+I. Optimize Subscription Strategy:
+
+- Simplify and Highlight Affordability of the Basic Subscription: Continue emphasizing the simplicity and affordability of the popular Basic subscription in marketing efforts.
+  
+- Emphasize the benefits of other subscription plans : Highlight the added benefits of subscribing to the Standard and Premium plans.
+
+- Customizable Add-Ons:: Introduce optional upgrades to enhance the Basic plan, allowing customers to tailor their experience without added complexity.
+
+  
+II. Nurture Customer Loyalty:
+
+- Reward Long-Term Commitment: Develop a loyalty program that incentivizes continued subscription, offering benefits such as: Renewal discounts,  Exclusive content for loyal subscribers (e.g., after one year)
+
+- Authentic Endorsements_: Showcase testimonials from satisfied customers, particularly from the East region, in marketing materials to Build trust and attract new subscribers
+  
+III. Regional marketing strategies: 
+
+- Exclusive East Region Offers_: Develop targeted promotions and incentives to further leverage the East region's strong commitment, driving additional growth.
+
+- Community Connection: Design and implement community-focused initiatives and events in the East and in other regions. This is with the aim of Fostering a sense of community, Strengthening customer bonds and Building brand loyalty.
+  
+IV. Enhance Customer Experience:
+
+- Streamline Onboarding:  Optimize the new subscriber onboarding process for a seamless and informative introduction, highlighting subscription value from day one.
+
+- Proactive Communication: Maintain regular updates and engagement with subscribers, informing them of  New features, Enhancements, Exclusive benefits
+
+V. Minimize Cancellations and Boost Re-engagement:
+
+- Understand Cancellation Motivations: Gather insights through surveys or interviews with cancelled subscribers to identify key reasons and address underlying issues.
+  
+- Win-Back Initiatives_: Launch targeted re-engagement campaigns focusing on former subscribers, highlighting Personalized offers, New features and enhancements, Exclusive benefits
+  
+VI. Time-Limited Offers: Launch seasonal promotions, Holiday-themed promotions, Limited-time discounts, Bundled packages to  Drive new subscriptions, Increase renewals and Capitalize on peak demand periods
+
