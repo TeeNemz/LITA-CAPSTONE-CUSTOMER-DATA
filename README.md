@@ -256,6 +256,14 @@ MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
 POWER BI INSIGHTS AND VISUALIZATIONS
 
 
+
+![Customer data BI 1](https://github.com/user-attachments/assets/8ebd0cd7-78e9-4e1b-bbf9-2e5b436c7393)
+
+
+![Customer Bi 2023](https://github.com/user-attachments/assets/f66fbdc4-cee4-46a2-a261-ff2c8d67c1e2)
+
+
+
 ### KEY INSIGHTS AND INFERENCE:
 ---
 
