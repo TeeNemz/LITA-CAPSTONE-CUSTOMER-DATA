@@ -267,6 +267,33 @@ POWER BI INSIGHTS AND VISUALIZATIONS
 ### KEY INSIGHTS AND INFERENCE:
 ---
 
+- Subscription Pattern:
+  
+From the analysis an  impressive total of $68M of Revenue was generated, with the 'Basic' subscription type having the highest number of subscribers and total revenue, thus making it the most popular Subscription plan. 'Premium' plan was the second with 'Standard' plan being the least.
+
+
+The 'Basic' plan's popularity can be attributed to its attractive pricing, suitable features, or effective marketing strategies.
+
+
+- Regional Perfomance:
+  
+The 'East' region is observed to have the highest number of subscribers, active subscription and total revenue. However, there is lack of subscription type diversification among the subscribers. For instance: Premium subscription is popular in the South, Standard subscription is popular in the West and Basic subscription type in both East and North region. This might be due to factors like income levels, awareness campaigns, or regional marketing initiatives.
+
+- Subscription period:
+
+Most of subscription are active for an average period of 365 days (1 year), rarely is it below or beyond that duration. This indicates a high level of satisfaction and trust. 
+
+- Cancellation pattern:
+
+A total of 15,175 customers cancelled their subscription with 18,612 retaining their active subscription.  It was also worthy to note that each Cancellation was done on the same day as when the customer first subscribed as seen in the  Power Bi Visualization. 
+
+This can be attributed to dissatisfaction with services or features, Cost or pricing concerns, Changes in personal or business needs, Competitor offerings or alternatives, Lack of engagement or communication. 
+
+Thus effort should be made during the year and intensified towards the end of each subscription year to enhance customer support and feedback mechanisms, Review pricing strategies and consider tiered plans, Develop targeted retention campaigns, Monitor competitor activity and market trends, Foster stronger customer relationships through regular communication.
+
+
+
+
 
 ### RECOMMENDATIONS:
 ---
